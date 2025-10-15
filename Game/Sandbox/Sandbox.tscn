@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://criou200txf5g"]
+
+[ext_resource type="Script" uid="uid://dop1rfsivpwpo" path="res://Sandbox/Sandbox.gd" id="1_mi8x3"]
+
+[node name="Sandbox" type="Node2D" node_paths=PackedStringArray("debug_label")]
+script = ExtResource("1_mi8x3")
+debug_label = NodePath("Label")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 678.0
+offset_bottom = 90.0
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("uid://dw420j31e4vxu")
+spawn_path = NodePath("../Players")
+
+[node name="Players" type="Node2D" parent="."]

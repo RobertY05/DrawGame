@@ -1,0 +1,6 @@
+res://Sandbox/Sandbox.tscn
+res://Sandbox/Sandbox.gd
+res://MultiplayerManager.gd
+res://Sandbox/TestPlayer.tscn
+res://Sandbox/TestPlayer.gd
+res://Sandbox/InputSynchronizer.gd

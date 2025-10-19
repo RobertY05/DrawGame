@@ -1,6 +1,7 @@
 ﻿# Builds
-Builds/*
+Builds/GameClient/*
 !Builds/GameClient/README.md
+Builds/GameServer/*
 !Builds/GameServer/README.md
 !Builds/GameServer/Dockerfile
 

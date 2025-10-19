@@ -1,4 +1,8 @@
-﻿Builds/GameServer/*
+﻿# Builds
+Builds/*
+!Builds/GameClient/README.md
+!Builds/GameServer/README.md
+!Builds/GameServer/Dockerfile
 
 # Godot 4+ specific ignores
 Game/.godot/

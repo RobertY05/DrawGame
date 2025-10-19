@@ -1,0 +1,5 @@
+﻿Builds/GameServer/*
+
+# Godot 4+ specific ignores
+Game/.godot/
+Game/android/
